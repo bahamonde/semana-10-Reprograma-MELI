@@ -8,7 +8,9 @@ const AlunasSchema = new mongoose.Schema({
         titulo: {type: String},
         leu: {type: String}
     }]
-    
+}, 
+{
+    versionKey: false  ///TIRA O V QUANDO CRIA UM NOVO REGISTRO
 })
 
 /////////////////////////////// COLOCOU MAIS ESSE!!! /////////////////////////////////////
