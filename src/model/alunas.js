@@ -13,7 +13,6 @@ const AlunasSchema = new mongoose.Schema({
     versionKey: false  ///TIRA O V QUANDO CRIA UM NOVO REGISTRO
 })
 
-/////////////////////////////// COLOCOU MAIS ESSE!!! /////////////////////////////////////
 
 // ESTA DIZENDO QUE ESSE MODEL TEM ESSAS CARACTERISTICAS,EXPORTA AQUI
 const Alunas = mongoose.model('Alunas', AlunasSchema);
